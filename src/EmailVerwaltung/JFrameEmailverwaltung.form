@@ -90,7 +90,7 @@
           <text value="Suchen"/>
         </properties>
       </component>
-      <component id="f2e79" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+      <component id="f2e79" class="javax.swing.JTextField" binding="textFieldID">
         <constraints>
           <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
@@ -106,14 +106,6 @@
           <text value="Vorname"/>
         </properties>
       </component>
-      <component id="fe80" class="javax.swing.JPasswordField" binding="passwordField1" default-binding="true">
-        <constraints>
-          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
-          </grid>
-        </constraints>
-        <properties/>
-      </component>
       <component id="374d0" class="javax.swing.JLabel">
         <constraints>
           <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
@@ -122,13 +114,15 @@
           <text value="Nachname"/>
         </properties>
       </component>
-      <component id="7f6ab" class="javax.swing.JTextField" binding="textField2" default-binding="true">
+      <component id="7f6ab" class="javax.swing.JTextField" binding="textFieldNachname">
         <constraints>
           <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <text value=""/>
+        </properties>
       </component>
       <component id="7cbf9" class="javax.swing.JLabel">
         <constraints>
@@ -138,13 +132,23 @@
           <text value="Email"/>
         </properties>
       </component>
-      <component id="90137" class="javax.swing.JTextField" binding="textField3" default-binding="true">
+      <component id="90137" class="javax.swing.JTextField" binding="textFieldEmail">
         <constraints>
           <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
           </grid>
         </constraints>
         <properties/>
+      </component>
+      <component id="fe80" class="javax.swing.JPasswordField" binding="textFieldVorName">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
       </component>
     </children>
   </grid>
